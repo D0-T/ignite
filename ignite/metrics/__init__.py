@@ -40,6 +40,7 @@ from ignite.metrics.rec_sys.hitrate import HitRate
 from ignite.metrics.roc_auc import ROC_AUC, RocCurve
 from ignite.metrics.root_mean_squared_error import RootMeanSquaredError
 from ignite.metrics.running_average import RunningAverage
+from ignite.metrics.sequence_accuracy import SequenceAccuracy
 from ignite.metrics.ssim import SSIM
 from ignite.metrics.top_k_categorical_accuracy import TopKCategoricalAccuracy
 from ignite.metrics.vision.object_detection_average_precision_recall import (
@@ -84,6 +85,7 @@ __all__ = [
     "Recall",
     "RootMeanSquaredError",
     "RunningAverage",
+    "SequenceAccuracy",
     "VariableAccumulation",
     "Frequency",
     "SSIM",
